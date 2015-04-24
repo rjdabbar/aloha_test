@@ -1,0 +1,44 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.pills_pouches {
+  width: 100%;
+  height: 800px;
+}
+
+.essence_section {
+  background-color: #f9f5e9;
+  height: 917px;
+  width: 100%;
+}
+
+ul.mag_listing {
+  display: inline;
+  list-style-type: none;
+  padding-left: 90px;
+
+  
+  li {
+    display: inline;
+    padding-left: 20px;
+  }
+}
+
+h1#essence_title {
+  text-align: center;
+  color: #d72e15;
+  font-weight: 200;
+}
+
+p#essence_body {
+  text-align: center;
+  color: #b4764e;
+}
+
+ul.essence_plus_lists {
+  list-style-type: none;
+  color: #d72e15;
+  font-weight: 300;
+}
