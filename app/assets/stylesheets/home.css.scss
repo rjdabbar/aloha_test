@@ -101,7 +101,7 @@ select#quantity_selector {
 
 .essence_section {
   background-color: #f9f5e9;
-  height: 917px;
+  height: 400px;
   width: 100%;
 }
 
@@ -139,11 +139,25 @@ ul.benefits_listing {
   list-style-type: none;
 
   li {
-    line-height: 100px;
+    // line-height: 100px;
     display: inline-block;
     vertical-align: top;
     color: #a37c64;
+    padding-left: 40px;
+  }
+
+  span {
+    text-align: center;
   }
 }
 
+div.page_break_one {
+  padding-top: 40px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: #d33317;
+  font-size: 36px;
+  color: white;
+}
 
