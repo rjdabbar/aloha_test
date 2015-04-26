@@ -1,6 +1,7 @@
 
 <div class="pills_pouches">
-  <div id="essentials_kit" class="">
+  <div class="container">
+    <div id="essentials_kit" class="">
       <h1 id="essentials_header">Essentials Kit</h1>
       <h4>Look Good, Feel Good</h4>
       <h3>$149</h3>
@@ -22,10 +23,15 @@
           </select>
         </h4>
       </p>
-      <div>
-        <input type="checkbox" name="subscribe" id="subscribe_checkbox" /> 
-        <label for="subscribe_checkbox">Subscribe & Save 10%</label>
+        <div class="subscribe_box">
+          <input type="checkbox" name="subscribe"  id="subscribe_checkbox"  /> 
+          <label for="subscribe_checkbox">Subscribe & Save 10% <%= image_tag "question_mark.png" %></label>
+        </div>
+      <div class="buy_button">
+        BUY NOW
+         <!-- <%= button_to :buy %> -->
       </div>
+    </div>
   </div>
 </div>
 
@@ -69,15 +75,15 @@
           </div>
         </div>
         <ul class="benefits_listing">
-          <li><%= image_tag "icons/vegan.png" %><span class="benefits_text">Vegan</span></li>
-          <li><%= image_tag "icons/non_gmo.png" %><span class="benefits_text">Non-GMO</span></li>
-          <li><%= image_tag "icons/gluten_free.png" %><span class="benefits_text">Gluten-Free</span></li>
-          <li><%= image_tag "icons/soy_free.png" %><span class="benefits_text">Soy-Free</span></li>
-          <li><%= image_tag "icons/nothing_artificial.png" %><span class="benefits_text">Nothing Artificial</span></li>
-          <li><%= image_tag "icons/organic.png" %><span class="benefits_text">Made With Organic Ingredients</span></li>
-          <li><%= image_tag "icons/fda_cgmp.png" %><span class="benefits_text">FDA cGMP</span></li>
-          <li><%= image_tag "icons/independently_tested.png" %><span class="benefits_text">Independently Tested</span></li>
-          <li><%= image_tag "icons/sustainable_solutions.png" %><span class="benefits_text">Sustainable Solutions</span></li>
+          <span class="benefits_text"><li><%= image_tag "icons/vegan.png" %>Vegan</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/non_gmo.png" %>Non-GMO</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/gluten_free.png" %>Gluten-Free</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/soy_free.png" %>Soy-Free</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/nothing_artificial.png" %>Nothing Artificial</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/organic.png" %>Made With Organic Ingredients</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/fda_cgmp.png" %>FDA cGMP</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/independently_tested.png" %>Independently Tested</li></span>
+          <span class="benefits_text"><li><%= image_tag "icons/sustainable_solutions.png" %>Sustainable Solutions</li></span>
         </ul>
     </div>
   </div>

@@ -4,15 +4,17 @@
 
 
 .pills_pouches {
-  width: 100%;
   height: 800px;
   background: url('/assets/pouch_pill_cookie.png');
+  background-size: 100% 100%;
   
   div#essentials_kit {
   width: 410px;
   height: 400px;
   background-color: #fcfaf6;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
+  float: right;
+  margin-top: 180px;
 
     h1, h3, h4 {
       text-align: center;
@@ -37,7 +39,47 @@
 
       
     }
+  
+    div.subscribe_box {
+      margin-left: 50px;
+      width: 310px;
+      border-radius: 5px;
+      border: 1px solid #a37c64;
+      border-width: .02em;
+      margin-top: 30px;
+      text-align: center;
+      font-size: 20px;
+      background-color: white;
 
+      input[type="checkbox"] {
+        display:inline-block;
+        width:30px;
+        height:30px;
+      }
+
+      label {
+        font-weight: 200;
+        color: #a37c64;
+
+        img {
+          margin-top: -5px;
+        }
+      }
+    }
+
+    div.buy_button {
+      margin-top: 30px;
+      width: 410px;
+      height: 60px;
+      line-height: 60px;
+      border-radius: 0px 0px 5px 5px;
+      background-color: #ff503e;
+      text-align: center;
+      vertical-align: center;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+    }
   }
 }
 
@@ -51,14 +93,10 @@ select#quantity_selector {
         border-width: 1px;
         border-color: #a37c64;
         height: 34px;
-        // -webkit-appearance: none;
-        // color: #000;
         border-radius: 5px;
       }
 
-input[type="checkbox"] {
-  display: none;
-}
+
 
 
 .essence_section {
@@ -107,3 +145,5 @@ ul.benefits_listing {
     color: #a37c64;
   }
 }
+
+
