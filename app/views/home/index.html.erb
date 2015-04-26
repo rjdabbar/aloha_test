@@ -1,8 +1,31 @@
 
 <div class="pills_pouches">
   <div id="essentials_kit" class="">
-    
-    
+      <h1 id="essentials_header">Essentials Kit</h1>
+      <h4>Look Good, Feel Good</h4>
+      <h3>$149</h3>
+      <ul class="essentials_kit_list">
+        <li><b>30</b> The Foundation</li>
+        <li><b>10</b> Daily Good Greens - Original</li>
+        <li><b>10</b> Daily Good Greens - Berry</li>
+        <li><b>10</b> Daily Good Greens - Chocolate</li>
+      </ul>
+     
+      <p id="quantity">
+        <h4>Quantitiy:
+          <select name="" id="quantity_selector">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </h4>
+      </p>
+      <div>
+        <input type="checkbox" name="subscribe" id="subscribe_checkbox" /> 
+        <label for="subscribe_checkbox">Subscribe & Save 10%</label>
+      </div>
   </div>
 </div>
 
@@ -27,23 +50,35 @@
         </p>
 
         <div class="col-xs-4 col-md-1 col-lg-4">
-          <ul class="essence_plus_lists">
-            <li><b>+</b> Boosts Immune System</li>
-            <li><b>+</b> Improves Mood</li>
-          </ul>
+            <ul class="essence_plus_lists">
+              <li><b>+</b> Boosts Immune System</li>
+              <li><b>+</b> Improves Mood</li>
+            </ul>
           </div>
           <div class="col-xs-4 col-md-1 col-lg-4">
-          <ul class="essence_plus_lists">
-            <li><b>+</b> Promotes Glowing Skin</li>
-            <li><b>+</b> Increases Energy</li>
-          </ul>
+            <ul class="essence_plus_lists">
+              <li><b>+</b> Promotes Glowing Skin</li>
+              <li><b>+</b> Increases Energy</li>
+            </ul>
           </div>
           <div class="col-xs-4 col-md-1 col-lg-4">
-          <ul class="essence_plus_lists">
-            <li><b>+</b> Aids Digestion</li>
-            <li><b>+</b> Sharpens Cognition</li>
-          </ul>
+            <ul class="essence_plus_lists">
+              <li><b>+</b> Aids Digestion</li>
+              <li><b>+</b> Sharpens Cognition</li>
+            </ul>
+          </div>
         </div>
-      </div>
+        <ul class="benefits_listing">
+          <li><%= image_tag "icons/vegan.png" %><span class="benefits_text">Vegan</span></li>
+          <li><%= image_tag "icons/non_gmo.png" %><span class="benefits_text">Non-GMO</span></li>
+          <li><%= image_tag "icons/gluten_free.png" %><span class="benefits_text">Gluten-Free</span></li>
+          <li><%= image_tag "icons/soy_free.png" %><span class="benefits_text">Soy-Free</span></li>
+          <li><%= image_tag "icons/nothing_artificial.png" %><span class="benefits_text">Nothing Artificial</span></li>
+          <li><%= image_tag "icons/organic.png" %><span class="benefits_text">Made With Organic Ingredients</span></li>
+          <li><%= image_tag "icons/fda_cgmp.png" %><span class="benefits_text">FDA cGMP</span></li>
+          <li><%= image_tag "icons/independently_tested.png" %><span class="benefits_text">Independently Tested</span></li>
+          <li><%= image_tag "icons/sustainable_solutions.png" %><span class="benefits_text">Sustainable Solutions</span></li>
+        </ul>
     </div>
   </div>
+
