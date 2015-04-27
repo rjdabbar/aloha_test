@@ -331,7 +331,7 @@ div.page_break_two {
 // 
 
 div.education {
-  height: 1500px;
+  height: 1570px;
 
     h1 {
       color: #d72e15;
@@ -355,5 +355,77 @@ div.education {
       position: relative;
       }
     }
-
 }
+
+// PAGE BREAK THREE: RED AND YELLOW
+
+  div.page_break_three {
+    height: 360px;
+
+    div.top {
+      width: 100%;
+      height: 260px;
+
+      text-align: center;
+      background-color: #d33317;
+      font-size: 36px;
+      color: white;
+      font-weight: 200;
+
+      p {
+        padding-top: 70px;
+      }
+    }
+
+    div.bottom {
+      width: 100%;
+      height: 100px;
+
+      text-align: center;
+      background-color: #fbc12d;
+      font-size: 36px;
+      color: white;
+      font-weight: 200;
+
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  div.contact {
+    height: 400px;
+
+    h1, h4 {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 200;
+      color: #fc5021;
+    }
+
+    h4 {
+      color: #b4764e;
+      font-weight: 300;
+    }
+    
+    div.contact_section {
+      padding-top: 20px;
+      text-align: center;
+
+      img, h3, p {
+        padding-left: 40px;
+      }
+
+      h3 {
+        color: #fc5021;
+        font-weight: 200;
+      }
+
+      p {
+        color: #ab8357;
+        font-weight: 200;
+      }
+    }
+  }
