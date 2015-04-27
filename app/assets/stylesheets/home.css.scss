@@ -325,3 +325,35 @@ div.page_break_two {
     padding-top: 70px;
   }
 }
+
+// 
+// EDUCATION CIRCLES SECTION
+// 
+
+div.education {
+  height: 1500px;
+
+    h1 {
+      color: #d72e15;
+      font-weight: 200;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    h4 {
+      text-align: center;
+      color: #ab8357;
+      font-weight: 300;
+    }
+
+
+    div.education_circle_section {
+      margin-top: 100px;
+      background-image: url('/assets/education/education_background.png');
+    img {
+      margin: auto;
+      position: relative;
+      }
+    }
+
+}
