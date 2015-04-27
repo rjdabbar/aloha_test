@@ -151,6 +151,10 @@ ul.benefits_listing {
   }
 }
 
+// 
+// RED PAGE BREAK 
+// 
+
 div.page_break_one {
   padding-top: 40px;
   height: 200px;
@@ -161,3 +165,163 @@ div.page_break_one {
   color: white;
 }
 
+// 
+// SUPPLEMENTS AND FACTS SECTION
+// 
+div.packet_supplements {
+  position: relative;
+  height: 1200px;
+
+// ESSENTIALS HEADER
+  h1 {
+    color: #d72e15;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+// 
+// GREEN CIRCLE IMAGE AND FACTS DIV
+  div#green_circle_facts {
+    float: right;
+    padding-top: 100px;
+    height: 570px;
+
+  h2, h4 {
+    text-align: center;
+  }
+
+  h4#packets {
+    color: #708a17;
+    font-weight: 300;
+  }
+
+  h2#daily_greens {
+    margin-top: 10px;
+    color: #708a17;
+  }
+
+  h4#green_powders {
+    color: #708a17;
+    font-weight: 200;
+  }
+
+  h4#high_quality {
+    color: #b4764e;
+    font-weight: 200;
+  }
+
+  h4#learn_more {
+    color: #fc5021;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+
+  h4.supplement_facts_label {
+    padding-top: 20px;
+    color: #fc5021;
+    // text-decoration: underline;
+
+  }
+
+    ul#boxes {
+  display: inline;
+  list-style-type: none;
+
+    li {
+      border: 1px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      line-height: 20px;
+      color: white;
+      
+    }
+      span#original {
+        display: inline-block;
+        background-color: #609a1a;
+        text-align: center;
+        line-height: 20px;
+        width: 140px;
+        border-radius: 2px;
+      }
+      span#chocolate {
+        display: inline-block;
+        background-color:  #9c4b29;
+        text-align: center;
+        line-height: 20px;
+        width: 140px;
+        border-radius: 2px;
+      }
+      span#berry {
+        display: inline-block;
+        background-color: #9c094e;
+        text-align: center;
+        line-height: 20px;
+        width: 140px;
+        border-radius: 2px;
+      }
+    }
+  }
+
+// 
+// ORANGE CIRCLE AND FACTS DIV
+  div#orange_circle_image {
+    float: right;
+  }
+
+  div#orange_circle_facts {
+    padding-top: 90px;
+
+    h2, h3, h4 {
+      text-align: center;
+    }
+
+    h4#packets {
+      color: #fc6821;
+      font-weight: 200;
+    }
+
+    h2#foundation {
+      margin-top: 10px;
+      color: #fc6821;
+    }
+
+    h4#daily_nutrients {
+      color: #ab8357;
+      font-weight: 300;
+    }
+
+    h3#nature_made {
+      color: #ab8357;
+      font-weight: 300;
+    }
+
+    h4#learn_more {
+    color: #fc5021;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+
+  h4.supplement_facts_label {
+    padding-top: 20px;
+    color: #fc5021;
+    }
+  }
+}
+
+// PAGE BREAK TWO YELLOW
+
+div.page_break_two {
+  height: 170px;
+  background-color: #fbc12d;
+  position:relative;
+  text-align: center;
+  color: white;
+
+  p#why_wait {
+    font-weight: 200;
+    font-size: 36px;
+    padding-top: 70px;
+  }
+}
